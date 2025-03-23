@@ -2,7 +2,7 @@
 ''Spring 2025
 'RCET2265
 'Address Label
-'https://github.com/MalachiMarlow/Shuffle-The-Deck.git
+'https://github.com/MalachiMarlow/Address-Label-Program.git
 
 Option Explicit On
 Option Strict On
