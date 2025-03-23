@@ -1,0 +1,234 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class AddressLabelProgram
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Me.FirstNameTextBox = New System.Windows.Forms.TextBox()
+        Me.LastNameTextBox = New System.Windows.Forms.TextBox()
+        Me.StreetAddressTextBox = New System.Windows.Forms.TextBox()
+        Me.CityTextBox = New System.Windows.Forms.TextBox()
+        Me.StateTextBox = New System.Windows.Forms.TextBox()
+        Me.ZipTextBox = New System.Windows.Forms.TextBox()
+        Me.FirstNameLabel = New System.Windows.Forms.Label()
+        Me.LastNameLabel = New System.Windows.Forms.Label()
+        Me.StreetAddressLabel = New System.Windows.Forms.Label()
+        Me.CityLabel = New System.Windows.Forms.Label()
+        Me.StateLabel = New System.Windows.Forms.Label()
+        Me.ZipLabel = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.displayButton = New System.Windows.Forms.Button()
+        Me.clearButton = New System.Windows.Forms.Button()
+        Me.exitButton = New System.Windows.Forms.Button()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'FirstNameTextBox
+        '
+        Me.FirstNameTextBox.Location = New System.Drawing.Point(46, 85)
+        Me.FirstNameTextBox.Name = "FirstNameTextBox"
+        Me.FirstNameTextBox.Size = New System.Drawing.Size(249, 22)
+        Me.FirstNameTextBox.TabIndex = 0
+        '
+        'LastNameTextBox
+        '
+        Me.LastNameTextBox.Location = New System.Drawing.Point(46, 135)
+        Me.LastNameTextBox.Name = "LastNameTextBox"
+        Me.LastNameTextBox.Size = New System.Drawing.Size(249, 22)
+        Me.LastNameTextBox.TabIndex = 1
+        '
+        'StreetAddressTextBox
+        '
+        Me.StreetAddressTextBox.Location = New System.Drawing.Point(46, 179)
+        Me.StreetAddressTextBox.Name = "StreetAddressTextBox"
+        Me.StreetAddressTextBox.Size = New System.Drawing.Size(249, 22)
+        Me.StreetAddressTextBox.TabIndex = 2
+        '
+        'CityTextBox
+        '
+        Me.CityTextBox.Location = New System.Drawing.Point(46, 229)
+        Me.CityTextBox.Name = "CityTextBox"
+        Me.CityTextBox.Size = New System.Drawing.Size(249, 22)
+        Me.CityTextBox.TabIndex = 3
+        '
+        'StateTextBox
+        '
+        Me.StateTextBox.Location = New System.Drawing.Point(46, 274)
+        Me.StateTextBox.Name = "StateTextBox"
+        Me.StateTextBox.Size = New System.Drawing.Size(100, 22)
+        Me.StateTextBox.TabIndex = 4
+        '
+        'ZipTextBox
+        '
+        Me.ZipTextBox.Location = New System.Drawing.Point(46, 317)
+        Me.ZipTextBox.Name = "ZipTextBox"
+        Me.ZipTextBox.Size = New System.Drawing.Size(100, 22)
+        Me.ZipTextBox.TabIndex = 5
+        '
+        'FirstNameLabel
+        '
+        Me.FirstNameLabel.AutoSize = True
+        Me.FirstNameLabel.Location = New System.Drawing.Point(18, 33)
+        Me.FirstNameLabel.Name = "FirstNameLabel"
+        Me.FirstNameLabel.Size = New System.Drawing.Size(72, 16)
+        Me.FirstNameLabel.TabIndex = 6
+        Me.FirstNameLabel.Text = "First Name"
+        '
+        'LastNameLabel
+        '
+        Me.LastNameLabel.AutoSize = True
+        Me.LastNameLabel.Location = New System.Drawing.Point(43, 116)
+        Me.LastNameLabel.Name = "LastNameLabel"
+        Me.LastNameLabel.Size = New System.Drawing.Size(72, 16)
+        Me.LastNameLabel.TabIndex = 7
+        Me.LastNameLabel.Text = "Last Name"
+        '
+        'StreetAddressLabel
+        '
+        Me.StreetAddressLabel.AutoSize = True
+        Me.StreetAddressLabel.Location = New System.Drawing.Point(43, 160)
+        Me.StreetAddressLabel.Name = "StreetAddressLabel"
+        Me.StreetAddressLabel.Size = New System.Drawing.Size(96, 16)
+        Me.StreetAddressLabel.TabIndex = 8
+        Me.StreetAddressLabel.Text = "Street Address"
+        '
+        'CityLabel
+        '
+        Me.CityLabel.AutoSize = True
+        Me.CityLabel.Location = New System.Drawing.Point(43, 210)
+        Me.CityLabel.Name = "CityLabel"
+        Me.CityLabel.Size = New System.Drawing.Size(29, 16)
+        Me.CityLabel.TabIndex = 9
+        Me.CityLabel.Text = "City"
+        '
+        'StateLabel
+        '
+        Me.StateLabel.AutoSize = True
+        Me.StateLabel.Location = New System.Drawing.Point(43, 255)
+        Me.StateLabel.Name = "StateLabel"
+        Me.StateLabel.Size = New System.Drawing.Size(38, 16)
+        Me.StateLabel.TabIndex = 10
+        Me.StateLabel.Text = "State"
+        '
+        'ZipLabel
+        '
+        Me.ZipLabel.AutoSize = True
+        Me.ZipLabel.Location = New System.Drawing.Point(43, 299)
+        Me.ZipLabel.Name = "ZipLabel"
+        Me.ZipLabel.Size = New System.Drawing.Size(62, 16)
+        Me.ZipLabel.TabIndex = 11
+        Me.ZipLabel.Text = "Zip Code"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.FirstNameLabel)
+        Me.GroupBox1.Location = New System.Drawing.Point(25, 33)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(337, 346)
+        Me.GroupBox1.TabIndex = 13
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Mailing Address"
+        '
+        'displayButton
+        '
+        Me.displayButton.Location = New System.Drawing.Point(381, 299)
+        Me.displayButton.Name = "displayButton"
+        Me.displayButton.Size = New System.Drawing.Size(122, 80)
+        Me.displayButton.TabIndex = 15
+        Me.displayButton.Text = "Display"
+        Me.displayButton.UseVisualStyleBackColor = True
+        '
+        'clearButton
+        '
+        Me.clearButton.Location = New System.Drawing.Point(509, 299)
+        Me.clearButton.Name = "clearButton"
+        Me.clearButton.Size = New System.Drawing.Size(122, 80)
+        Me.clearButton.TabIndex = 16
+        Me.clearButton.Text = "Clear"
+        Me.clearButton.UseVisualStyleBackColor = True
+        '
+        'exitButton
+        '
+        Me.exitButton.Location = New System.Drawing.Point(637, 296)
+        Me.exitButton.Name = "exitButton"
+        Me.exitButton.Size = New System.Drawing.Size(119, 83)
+        Me.exitButton.TabIndex = 17
+        Me.exitButton.Text = "Exit"
+        Me.exitButton.UseVisualStyleBackColor = True
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Location = New System.Drawing.Point(381, 33)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(375, 260)
+        Me.GroupBox2.TabIndex = 18
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Address Label"
+        '
+        'AddressLabelProgram
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.exitButton)
+        Me.Controls.Add(Me.clearButton)
+        Me.Controls.Add(Me.displayButton)
+        Me.Controls.Add(Me.ZipLabel)
+        Me.Controls.Add(Me.StateLabel)
+        Me.Controls.Add(Me.CityLabel)
+        Me.Controls.Add(Me.StreetAddressLabel)
+        Me.Controls.Add(Me.LastNameLabel)
+        Me.Controls.Add(Me.ZipTextBox)
+        Me.Controls.Add(Me.StateTextBox)
+        Me.Controls.Add(Me.CityTextBox)
+        Me.Controls.Add(Me.StreetAddressTextBox)
+        Me.Controls.Add(Me.LastNameTextBox)
+        Me.Controls.Add(Me.FirstNameTextBox)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Name = "AddressLabelProgram"
+        Me.Text = "Address Label Viewer"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents FirstNameTextBox As TextBox
+    Friend WithEvents LastNameTextBox As TextBox
+    Friend WithEvents StreetAddressTextBox As TextBox
+    Friend WithEvents CityTextBox As TextBox
+    Friend WithEvents StateTextBox As TextBox
+    Friend WithEvents ZipTextBox As TextBox
+    Friend WithEvents FirstNameLabel As Label
+    Friend WithEvents LastNameLabel As Label
+    Friend WithEvents StreetAddressLabel As Label
+    Friend WithEvents CityLabel As Label
+    Friend WithEvents StateLabel As Label
+    Friend WithEvents ZipLabel As Label
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents displayButton As Button
+    Friend WithEvents clearButton As Button
+    Friend WithEvents exitButton As Button
+    Friend WithEvents GroupBox2 As GroupBox
+End Class
