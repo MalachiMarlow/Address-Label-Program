@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class AddressLabelProgram
+Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -34,12 +34,14 @@ Partial Class AddressLabelProgram
         Me.CityLabel = New System.Windows.Forms.Label()
         Me.StateLabel = New System.Windows.Forms.Label()
         Me.ZipLabel = New System.Windows.Forms.Label()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.InputGroupBox = New System.Windows.Forms.GroupBox()
         Me.displayButton = New System.Windows.Forms.Button()
         Me.clearButton = New System.Windows.Forms.Button()
         Me.exitButton = New System.Windows.Forms.Button()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox1.SuspendLayout()
+        Me.OutputGroupBox = New System.Windows.Forms.GroupBox()
+        Me.DisplayLabel = New System.Windows.Forms.Label()
+        Me.InputGroupBox.SuspendLayout()
+        Me.OutputGroupBox.SuspendLayout()
         Me.SuspendLayout()
         '
         'FirstNameTextBox
@@ -138,15 +140,15 @@ Partial Class AddressLabelProgram
         Me.ZipLabel.TabIndex = 11
         Me.ZipLabel.Text = "Zip Code"
         '
-        'GroupBox1
+        'InputGroupBox
         '
-        Me.GroupBox1.Controls.Add(Me.FirstNameLabel)
-        Me.GroupBox1.Location = New System.Drawing.Point(25, 33)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(337, 346)
-        Me.GroupBox1.TabIndex = 13
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Mailing Address"
+        Me.InputGroupBox.Controls.Add(Me.FirstNameLabel)
+        Me.InputGroupBox.Location = New System.Drawing.Point(25, 33)
+        Me.InputGroupBox.Name = "InputGroupBox"
+        Me.InputGroupBox.Size = New System.Drawing.Size(337, 346)
+        Me.InputGroupBox.TabIndex = 13
+        Me.InputGroupBox.TabStop = False
+        Me.InputGroupBox.Text = "Mailing Address"
         '
         'displayButton
         '
@@ -154,7 +156,7 @@ Partial Class AddressLabelProgram
         Me.displayButton.Name = "displayButton"
         Me.displayButton.Size = New System.Drawing.Size(122, 80)
         Me.displayButton.TabIndex = 15
-        Me.displayButton.Text = "Display"
+        Me.displayButton.Text = "Display Label"
         Me.displayButton.UseVisualStyleBackColor = True
         '
         'clearButton
@@ -175,21 +177,30 @@ Partial Class AddressLabelProgram
         Me.exitButton.Text = "Exit"
         Me.exitButton.UseVisualStyleBackColor = True
         '
-        'GroupBox2
+        'OutputGroupBox
         '
-        Me.GroupBox2.Location = New System.Drawing.Point(381, 33)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(375, 260)
-        Me.GroupBox2.TabIndex = 18
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Address Label"
+        Me.OutputGroupBox.Controls.Add(Me.DisplayLabel)
+        Me.OutputGroupBox.Location = New System.Drawing.Point(381, 33)
+        Me.OutputGroupBox.Name = "OutputGroupBox"
+        Me.OutputGroupBox.Size = New System.Drawing.Size(375, 260)
+        Me.OutputGroupBox.TabIndex = 18
+        Me.OutputGroupBox.TabStop = False
+        Me.OutputGroupBox.Text = "Address Label"
         '
-        'AddressLabelProgram
+        'DisplayLabel
+        '
+        Me.DisplayLabel.AutoSize = True
+        Me.DisplayLabel.Location = New System.Drawing.Point(6, 52)
+        Me.DisplayLabel.Name = "DisplayLabel"
+        Me.DisplayLabel.Size = New System.Drawing.Size(0, 16)
+        Me.DisplayLabel.TabIndex = 0
+        '
+        'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.OutputGroupBox)
         Me.Controls.Add(Me.exitButton)
         Me.Controls.Add(Me.clearButton)
         Me.Controls.Add(Me.displayButton)
@@ -204,11 +215,13 @@ Partial Class AddressLabelProgram
         Me.Controls.Add(Me.StreetAddressTextBox)
         Me.Controls.Add(Me.LastNameTextBox)
         Me.Controls.Add(Me.FirstNameTextBox)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "AddressLabelProgram"
+        Me.Controls.Add(Me.InputGroupBox)
+        Me.Name = "Form1"
         Me.Text = "Address Label Viewer"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.InputGroupBox.ResumeLayout(False)
+        Me.InputGroupBox.PerformLayout()
+        Me.OutputGroupBox.ResumeLayout(False)
+        Me.OutputGroupBox.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -226,9 +239,10 @@ Partial Class AddressLabelProgram
     Friend WithEvents CityLabel As Label
     Friend WithEvents StateLabel As Label
     Friend WithEvents ZipLabel As Label
-    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents InputGroupBox As GroupBox
     Friend WithEvents displayButton As Button
     Friend WithEvents clearButton As Button
     Friend WithEvents exitButton As Button
-    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents OutputGroupBox As GroupBox
+    Friend WithEvents DisplayLabel As Label
 End Class
